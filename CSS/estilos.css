@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.FondoNavbar{
+    background-color: #e0001e;
+
+}
+
+.row{
+    background-color: #e0001e;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+footer p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.redes i{
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 15px;
+    
+}
+
+footer a:hover{
+    color: #c0ecf6;
+}
+
+.CardGaleria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    
+    
+}
+ 
+.BodyGaleriaYNosotros{
+    background-color: gray;
+}
+
+.Card2{
+    margin-top: 20px;
+
+}
+
+.Card3{
+    margin-top: 20px;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: 
+    "img1 img1 img2"
+    "img3 img3 img4"
+    "img3 img3 img5";
+    grid-gap: 20px 50px;
+}
+
+
+.item{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+   
+}
+.item1{
+    grid-area: img1;
+    background-image: url(../Img/MangoGaleriaGrid.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item2{
+    grid-area: img2;
+    background-image: url(../Img/NaranjaGaleriaGrid.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item3{
+    grid-area: img3;
+    background-image: url(../Img/FrutasGaleriaGrid.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.item4{
+    grid-area: img4;
+    background-image: url(../Img/PiñaGaleriaGrid.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item5{
+    grid-area: img5;
+    background-image: url(../Img/ManzaGaleriaGrid.jpg);
+     background-size: cover;
+    background-position: center;
+}
+
+
+
+.ImgContactos{
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.ServicioP{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.PServicio{
+    float: right;
+    font-size: 50px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ImgPNosotros{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ImgNosotros{
+ 
+    padding: 20px;
+    width: 50%;
+    
+}
+
+.H1Nosotros{
+    float: right;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  
+
+}
+
+
+
