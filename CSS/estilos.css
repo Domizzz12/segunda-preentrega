@@ -119,26 +119,6 @@ footer a:hover{
     background-position: center;
 }
 
-
-
-.ImgContactos{
-    width: 100%;
-    height: 500px;
-    margin-top: 40px;
-}
-
-.ServicioP{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.PServicio{
-    float: right;
-    font-size: 50px ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .ImgPNosotros{
     display: flex;
     justify-content: space-between;
@@ -152,7 +132,7 @@ footer a:hover{
     
 }
 
-.H1Nosotros{
+.H2Nosotros{
     float: right;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -161,5 +141,42 @@ footer a:hover{
 
 }
 
+.H12Contactos{
+    font-family: Merriweather;
+}
 
+.H1Contacto{
+    font-size: 1000px;
+    color: gray;
+}
 
+.H2Contactos{
+    font-size: 50px;
+    color: red;
+}
+
+.FooterNosotrosYServicio{
+    position: fixed;
+    bottom: 0;
+}
+
+.BodyServicio{
+    background-color: gray;
+}
+
+.CardServicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.card-textServicio{
+    font-size: 50px;
+}
+
+.card-img-topServicio{
+    height: 200px;
+    
+}
